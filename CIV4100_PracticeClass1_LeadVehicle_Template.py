@@ -7,7 +7,6 @@ import random
 import time
 import argparse
 import math
-import carla
 
 
 try:
@@ -17,6 +16,8 @@ try:
         'win-amd64' if os.name == 'nt' else 'linux-x86_64'))[0])
 except IndexError:
     pass
+import carla
+
 
 X = -2.1
 Y = 120
